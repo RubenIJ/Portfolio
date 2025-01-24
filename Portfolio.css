@@ -34,7 +34,8 @@ nav {
 .Picture {
     display: flex;
     margin: 10px;
-    margin-left: 19%;
+    margin-left: 290px;
+    height: 120px;
 }
 .Seperate {
     display: flex;
