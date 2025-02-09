@@ -1,7 +1,7 @@
 body, html {
     margin: 0;
     background-color: #055254;
-
+height: 4200px;
 }
 Header {
     display: flex;
@@ -14,48 +14,77 @@ nav {
     flex-direction: row;
 
 }
-.Beige {
+.beige {
     color: #F3E8BB;
+    padding-left: 100px;
+    padding-top: 100px;
 }
-.Fixed {
+.zelf {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+.fixed {
     display: flex;
     margin-top: 50px;
+    flex-direction: row;
+    margin-bottom: 50px;
 }
-.Douable {
+.ik{
+    height: 600px;
+    width: 100%;
+
+}.specialiteit{
+    width: 100%;
+
+}
+.douable {
     display: flex;
     color: #F3E8BB;
     justify-content:  center;
     margin-top: 50px;
 }
-.Color {
+.color {
     display: flex;
     text-size-adjust: 40;
+    
 }
-.Picture {
+.picture {
     display: flex;
     margin: 10px;
     margin-left: 290px;
     height: 120px;
 }
-.Picture2 {
+.picture2 {
     display: flex;
     margin: 10px;
     margin-left: 290px;
     height: 120px;
 }
-.Seperate {
+.seperate {
     display: flex;
     background-color: #5F9F9E;
     width: 100%;
     height: 1011px;
-    margin-top: 112px;
+    margin-top: 140px;
+    flex-direction: column;
 }
-.Gedaan {
-position: absolute;
-width: 581px;
-height: 76px;
-left: 100px;
-top: 865px;
+.projecten {
+    display: flex;
+    background-color: #5F9F9E;
+    margin-top: 250px;
+}
+.text {
+    display: flex;
+    justify-content: column;
+    margin-top: 500px;
+    
+}
+.gedaan {
+display: flex;
+margin-left: 50px;
+
+
 
 font-style: normal;
 font-weight: 400;
@@ -66,14 +95,27 @@ color: #055254;
 
 
 }
-.Pink {
+.pink {
     /* Pink Goose: ik heb voor school een wensite na gebouwd. Manstermind: Een compleet werkende Mastermind gemmaakt in Java. */
 
-position: absolute;
-width: 531px;
-height: 361px;
-left: 111px;
-top: 1100px;
+
+margin-top: 200px;
+margin-left: 50px;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #055254;
+
+
+}
+.pink2 {
+    /* Pink Goose: ik heb voor school een wensite na gebouwd. Manstermind: Een compleet werkende Mastermind gemmaakt in Java. */
+
+margin-top: 250px;
+margin-left : 50px;
+
 
 font-style: normal;
 font-weight: 400;
@@ -84,55 +126,35 @@ color: #055254;
 
 
 }
-.Pink2 {
-    /* Pink Goose: ik heb voor school een wensite na gebouwd. Manstermind: Een compleet werkende Mastermind gemmaakt in Java. */
-
-position: absolute;
-width: 531px;
-height: 361px;
-left: 111px;
-top: 1377px;
-
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 48px;
-
-color: #055254;
-
-
+.foto {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
 }
-
-.Goose {
-position: absolute;
+.goose {
+    display: flex;
+    margin-top: 20px;
 width: 551px;
 height: 560px;
-left: 856px;
-top: 756px;
-
 background: url(image.png);
 }
-.Mastermind {
+.mastermind {
     /* image 28 */
 
-position: absolute;
+
 width: 554px;
 height: 283px;
-left: 856px;
-top: 1345px;
+
 
 background: url(image.png);
 
 }
-#About2 {
+#about2 {
     /* About: Ik ben geboren op 12 november 2008 en studeer nu aan het ROC in Nijmegen op de opleiding Software Developer, Ik Spreek twee talen en leer een derde. Mijn hobbies zijn Bewegen en Gamen. */
-
-position: absolute;
-width: 785px;
-height: 330px;
-left: 347px;
-top: 2100px;
-
+display: flex;
+justify-content: center;
+margin-left: 350px;
+width: 820px;
 font-weight: 400;
 font-size: 40px;
 line-height: 77px;
@@ -142,28 +164,19 @@ color: #ffffff;
 
 
 }
-#Beige2 {
-    color: #F3E8BB;
-    position: absolute;
-width: 785px;
-height: 330px;
-left: 347px;
-top: 1973px;
-
+#beige2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+color: #F3E8BB; 
 font-weight: 400;
 font-size: 40px;
 line-height: 77px;
 text-align: center;
 }
-.Toekomst {
+.toekomst {
 display: flex;
-position: absolute;
-width: 855px;
-height: 84px;
-left: 540px;
-top: 3001px;
-
-
+justify-content: center;
 font-weight: 400;
 font-size: 40px;
 line-height: 77px;
@@ -172,15 +185,14 @@ text-align: center;
 color: #F3E8BB;
 
 }
-#Uitleg {
+#uitleg {
     /* Ik wil na mijn studie graag op het HBO verder studeren en daarna naar het buitenland om verder te gaan verdiepen op Cyber Security. */
-
-position: absolute;
+display: flex;
+justify-content: center;
 width: 807px;
-height: 319px;
-left: 336px;
-top: 3148px;
-
+height: 300px;
+margin-left: 350px;
+margin-top: 30px;
 font-family: 'Inter';
 font-style: normal;
 font-weight: 400;
@@ -191,28 +203,6 @@ text-align: center;
 color: #FFFFFF;
 
 
-}
-Footer {
-    display: flex;
-    background-color: #F3E8BB;
-    height: 100px;
-    width: 100%;
-    flex-direction: row;
-    margin-top: 50px;
-    flex-direction: row;
-    justify-content: space-around;
-    text-align: center;
-    margin-top: 2000px;
-}
-.Center {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-}
-.link {
-    color: #055254;
-    font-size: 25px;
 }
 a {
     text-decoration: none;
@@ -240,4 +230,60 @@ a:hover {
 .move {
     display: flex;
     margin-left:30px ;
+}
+.me {
+    color: #F3E8BB;
+    font-size: 40px;
+    text-align: center;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.image {
+display: flex;
+flex-direction: row;
+margin-top: 30px;
+justify-content: space-between;
+width: 500px;
+flex-direction: center;
+margin-left: 510px;
+}
+.school {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 300px;
+}
+button {
+    background: none;
+}
+#git {
+    display: flex;
+    justify-content: center; 
+    flex-direction: row;
+    margin-top: 40px;
+    display: none;
+    white-space: nowrap;
+    text-align: center;
+    align-items: center;
+    
+}
+#email {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 70px;
+    display: none;
+    text-align: center;
+}
+#insta {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 90px;
+    display: none;
+    text-align: center;
 }
